@@ -1,0 +1,13 @@
+{
+	"name": "Obsidian Wall",
+  "description": "hardened obsidian wall",
+  "type": "wall",
+  "health": 20000,
+  "size": 2,
+  "buildTime": 7,
+  "requirements": [
+		{ "item": "lava-bucket", "amount": 2 }
+	],
+  "category": "defense",
+  "research": "thorium-wall"
+}

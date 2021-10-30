@@ -1,0 +1,13 @@
+{
+	"name": "Cobblestone Wall",
+  "description": "hardened Stone wall",
+  "type": "wall",
+  "health": 700,
+  "size": 2,
+  "buildTime": 7,
+  "requirements": [
+		{ "item": "cobblestone", "amount": 6 }
+	],
+  "category": "defense",
+  "research": "thorium-wall"
+}

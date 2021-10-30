@@ -1,0 +1,34 @@
+{
+	"type": "ItemTurret",
+	"name": "diamondguns",
+	"description": "The Best Diamond Shooter!",
+	"targetAir": true,
+	"targetGround": true,
+	"size": 4,
+	"reload": 60,
+	"shootCone": 40,
+	"shootsound": "shootBig",
+	"rotateSpeed": 22,
+	"shots": 5,
+	"range": 400,
+	"burstSpacing": 6,
+	"ammoTypes": {
+		"diamond": {
+			"speed": 10.5,
+			"damage": 120,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootBig",
+			"smokeEffect": "lancerLaserShootSmoke",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "diamond", "amount": 1000 },
+		{ "item": "redstone", "amount": 300 },
+		{ "item": "iron", "amount": 500 },
+		{ "item": "lead", "amount": 250 }
+	],
+	"category": "turret",
+	"research": "arc"
+}

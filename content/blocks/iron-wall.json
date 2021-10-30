@@ -1,0 +1,13 @@
+{
+	"name": "Iron Wall",
+  "description": "hardened Iron wall",
+  "type": "wall",
+  "health": 3000,
+  "size": 2,
+  "buildTime": 7,
+  "requirements": [
+		{ "item": "iron", "amount": 20 }
+	],
+  "category": "defense",
+  "research": "thorium-wall"
+}

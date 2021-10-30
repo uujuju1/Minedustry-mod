@@ -1,0 +1,6 @@
+  
+{
+	"type": "OreBlock",
+	"itemDrop": "redstone",
+	"variants": 1
+}
